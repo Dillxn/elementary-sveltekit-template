@@ -1,0 +1,21 @@
+{
+  "displayName": "Elementary Template",
+  "company": "My Company",
+  "bundleId": "com.mycompany.elementary.template",
+  "version": "0.0.1",
+  "manufacturerCode": "MyCo",
+  "pluginCode": "ElTe",
+  "numInputChannels": 2,
+  "numOutputChannels": 2,
+  "window": {
+    "width": 753,
+    "height": 373,
+    "showToolbar": false
+  },
+  "parameters": [
+    { "paramId": "mix",     "name": "Mix",      "min": 0.0, "max": 1.0, "defaultValue": 1.0 },
+    { "paramId": "size",    "name": "Size",     "min": 0.0, "max": 1.0, "defaultValue": 0.5 },
+    { "paramId": "lowCut",  "name": "Lo-Cut",   "min": 0.0, "max": 1.0, "defaultValue": 0.0 },
+    { "paramId": "highCut", "name": "Hi-Cut",   "min": 0.0, "max": 1.0, "defaultValue": 1.0 }
+  ]
+}
